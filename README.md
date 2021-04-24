@@ -2,7 +2,7 @@
 I have a degree in Systems Engineering and Telecommunications from the University of Cordoba - Colombia.
 I've been writing code since 2012 and I've been working for a couple of companies since 2015.
 
-👀 I’m interested in any web technology that may look promising to me, also I'm interesting in topics like:
+👀 I’m interested in any web technology that may look promising to me and also I'm interested in general topics like:
 - Software Architecture
 - Software development patterns
 - Startups development
@@ -39,17 +39,24 @@ Some of the technologies I have experience are:
   - Microservices (Medium)
   - Docker (Medium)
   - Nginx (Medium)
-  - Monitoring stack
-    - TICK Stack(Medium)
-    - Prometheus(Medium)
-    - Grafana(Medium)
-    - StatsD(Medium)
   - AWS
   
-🌱 I’m currently learning Rustlang, Svelte.js and Google Cloud Platform
+- Monitoring stack
+  - TICK Stack(Medium)
+  - Prometheus(Medium)
+  - Grafana(Medium)
+  - StatsD(Medium)
+  
+  
+🌱 I’m currently learning:
+
+- Rustlang
+- Svelte.js
+- Google Cloud Platform
 
 📫 How to reach me:
 
+- [Email](mailto:pedroj.jimenezp@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/pedro-jimenezp)
 - [Github](https://www.github.com/pedrojimenezp)
 - [Twitter](https://www.twitter.com/pedrojimenezp)
