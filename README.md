@@ -2,10 +2,10 @@
 I have a degree in Systems Engineering and Telecommunications from the University of Cordoba - Colombia.
 I've been writing code since 2012 and I've been working for a couple of companies since 2015.
 
-👀 I’m interested in any web technology that may look promising to me, also I'm interesting in things like:
+👀 I’m interested in any web technology that may look promising to me, also I'm interesting in topics like:
 - Software Architecture
-- Sofware development patterns
-- Startups development. 
+- Software development patterns
+- Startups development
 
 👨‍💻 I’ve more than 5 years of experience working with web technologies in both frontend and backend but I've always more interested in backend stuff.
 Some of the technologies I have experience are:
@@ -29,6 +29,11 @@ Some of the technologies I have experience are:
   - MySql (Medium)
   - Postgresql (Medium)
   - MongoDB (Medium)
+
+- Messaging systems
+  - Kafka
+  - RabbitMQ
+  - MQTT
   
 - DevOps
   - Microservices (Medium)
