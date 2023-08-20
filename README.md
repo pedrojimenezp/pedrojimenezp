@@ -7,8 +7,8 @@ I've been writing code since 2012 and I've been working for a couple of companie
 - Software development patterns
 - Startups development
 
-👨‍💻 I’ve more than 5 years of experience working with web technologies in both frontend and backend but I've always more interested in backend stuff.
-Some of the technologies I have experience are:
+👨‍💻 I’ve more than 5 years of experience working with web technologies in both frontend and backend but I've always been more interested in backend stuff.
+Some of the technologies I have experienced are:
 
 - Programming languages
   - Javascript (Advanced)
@@ -24,6 +24,7 @@ Some of the technologies I have experience are:
   - Backend
     - NodeJS (Advanced)
       - Express.js (Advanced)
+      - Next.js (Medium)
 
 - Databases
   - MySql (Medium)
@@ -40,19 +41,20 @@ Some of the technologies I have experience are:
   - Docker (Medium)
   - Nginx (Medium)
   - AWS
+  - GCP
   
 - Monitoring stack
   - TICK Stack(Medium)
   - Prometheus(Medium)
   - Grafana(Medium)
-  - StatsD(Medium)
-  
+  - Opentelemetry
   
 🌱 I’m currently learning:
 
 - Rustlang
+- Golang
 - Svelte.js
-- Google Cloud Platform
+- HTMX
 
 📫 How to reach me:
 
