@@ -28,9 +28,11 @@
 
     <meta
       name="Description"
-      content="My name is Pedro Jose Jimenez Perez and I'm a Software Engineer and fan of new technologies.
-  I have a Bachelor degree in Systems Engineering and Telecommunications from the University of Cordoba (Colombia).
-  I've been developing software since 2012 and I've been working for a couple of companies since 2015."
+      content="Hello there! 👋, My name is <strong>Pedro Jiménez</strong>, and I am a
+      <strong>Systems Engineer</strong> with a profound passion for
+      software development and entrepreneurship. My career has been
+      defined by a commitment to crafting robust backend systems,
+      optimizing infrastructure, and driving innovative solutions."
     />
 
     <meta
@@ -42,59 +44,53 @@
 
     <link rel="canonical" href="https://pedrojimenezp.com" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <style>
-      html {
-        padding: 0;
-        margin: 0;
-        font-family: 'Lato', sans-serif;
-        font-size: 18px;
-      }
-
       body {
-        padding: 0;
-        margin: 0;
-        background-color: #fafafa;
+        font-family: 'Georgia', 'Roboto', sans-serif;
+        line-height: 1.8;
+        background-color: #fdfdfd;
+        color: #444;
+        text-rendering: optimizeLegibility;
+        text-align: justify;
       }
 
-      .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      h1,
+      h2,
+      h3,
+      h4,
+      a {
+        color: #0056b3;
+        text-align: center;
       }
 
-      .header em {
-        font-size: 16px;
+      em {
+        font-size: medium;
       }
 
-      .header img {
+      .header-img {
+        width: 100%;
+        max-width: 200px;
         border-radius: 50%;
-        border: 1px solid #ccc;
-        width: 250px;
-        height: 250px;
-        box-shadow: 0px 0 5px #ccc;
       }
 
-      .container {
-        margin: auto;
-        max-width: 600px;
-        padding: 0 20px;
-      }
-
-      ul.experience {
-        font-family: monospace;
+      .section {
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #dee2e6;
       }
 
       ul.experience > li {
-        font-weight: 600;
-        margin-bottom: 20px;
-      }
-
-      ul.experience > li > ul > li {
-        font-weight: 500;
-      }
-
-      li > em {
-        font-size: 12px;
+        margin-top: 30px;
       }
 
       .social-networks {
@@ -108,225 +104,371 @@
       }
 
       footer {
-        margin-top: 20px;
-        padding: 20px;
+        margin-top: 2rem;
         text-align: center;
-        font-family: monospace;
-        font-size: 12px;
       }
     </style>
   </head>
 
   <body>
-    <header class="header">
-      <h1>Pedro Jimenez</h1>
-      <img
-        src="./static/img/profile-picture-square.jpg"
-        alt="Pedro Jimenez's photo"
-      />
-      <h2 styles=""><em>Software Engineer</em></h2>
-    </header>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+          <!-- Header Section -->
+          <div class="text-center my-5">
+            <img
+              src="./static/img/profile-picture-square.jpg"
+              alt="Pedro Jiménez"
+              class="header-img mb-4"
+            />
+            <h1>Pedro Jiménez</h1>
+            <p class="lead">
+              Passionate Software Engineer and Technology Enthusiast
+            </p>
+          </div>
 
-    <div class="container">
-      <p>👋 Hello there,</p>
-      <p>
-        My name is <strong>Pedro Jose Jimenez Perez</strong>, I'm a software
-        engineer focused on web development, mostly backend development.
-      </p>
-      <p>
-        I have a degree in Systems Engineering and Telecommunications from the
-        University of Cordoba - Colombia.
-      </p>
-      <p>
-        I've been writing code since 2012 and I've been working for a couple of
-        companies since 2015.
-      </p>
+          <!-- About Me Section -->
+          <div class="section">
+            <h2>About Me</h2>
+            <p>Hello there! 👋</p>
+            <p>
+              My name is <strong>Pedro Jiménez</strong>, and I am a
+              <strong>Systems Engineer</strong> with a profound passion for
+              software development and entrepreneurship. My career has been
+              defined by a commitment to crafting robust backend systems,
+              optimizing infrastructure, and driving innovative solutions.
+            </p>
+            <p>
+              Currently, I am a <strong>Senior Software Engineer</strong> at
+              <a href="https://www.jobbatical.com/">Jobbatical</a>, an European
+              startup transforming immigration and relocation into seamless
+              processes, our mission at Jobbatical is
+              <strong
+                >"Making moving to a new country as easy as booking a
+                flight"</strong
+              >.
+            </p>
+            <p>
+              My work enables me to directly and positively impact people's
+              lives, a mission I deeply resonate with.
+            </p>
+          </div>
 
-      <p>
-        👀 I’m interested in any web technology that may look promising to me
-        and also I'm interested in more general topics like:
-      </p>
-      <ul>
-        <li>Software Architecture</li>
-        <li>Software development patterns</li>
-        <li>Startups development</li>
-      </ul>
+          <!-- My Journey Section -->
+          <div class="section">
+            <h2>My Journey in Software Engineering</h2>
+            <p>
+              My journey began at the
+              <a href="https://www.unicordoba.edu.co/">University of Córdoba</a>
+              , where I developed my thesis project called
+              <strong>SISMO</strong>: an
+              <strong>Arduino-based device</strong> for monitoring and securing
+              motorcycles, aimed at reducing theft in my region.
+            </p>
+            <p>The solution incorporated:</p>
+            <ul>
+              <li><strong>Hardware:</strong> Arduino for device management.</li>
+              <li>
+                <strong>Communication:</strong> MQTT protocol for real-time data
+                exchange.
+              </li>
+              <li>
+                <strong>Backend:</strong> A robust server to register devices
+                and track motorcycles in theft scenarios.
+              </li>
+            </ul>
+            <p>
+              This experience sparked my love for innovative problem-solving and
+              cutting-edge technologies.
+            </p>
+            <p>
+              During my university years, I also designed and developed a
+              comprehensive ticketing, logistics, and vehicle management system
+              for a regional transport company. The platform empowered the
+              business to manage:
+            </p>
+            <ul>
+              <li>Ticket generation for users.</li>
+              <li>Customer and employee records.</li>
+              <li>Vehicle fleet tracking and insurance management.</li>
+            </ul>
 
-      <p>
-        👨‍💻 I’ve more than 10 years of experience working with web technologies in
-        both frontend and backend but as I've mentioned I'm more interested
-        in backend stuff so you will see more experience on that side.
-      </p>
-      <p>Some of the technologies I have experience with are:</p>
-      <ul class="experience">
-        <li>
-          Programming languages
-          <ul>
-            <li>Javascript <em>(Advanced)</em></li>
-            <li>Go <em>(Basic)</em></li>
-          </ul>
-        </li>
+            <h4 class="mt-5">Early Career: Building Foundations</h4>
+            <p>
+              My professional career began at
+              <a href="https://condorlabs.io/">Condorlabs</a>, a Colombian
+              company with U.S.-based clients.
+            </p>
+            <p>
+              I joined as a Junior Developer, working on a healthcare e-learning
+              platform built with <strong>Node.js</strong> (backend) and
+              <strong>React</strong> (frontend). Notably: At the time, most
+              services were developed in .NET and deployed on Windows Servers.
+              My team pioneered deployment on Linux servers, introducing CI/CD
+              pipelines.
+            </p>
+            <p>
+              As I advanced to <strong>Senior Engineer</strong>, I led the
+              Research and Development <strong>(R&D)</strong> team, implementing
+              technologies to enhance platform performance, monitoring, and
+              reliability. Key contributions included: Deploying monitoring
+              platforms like Prometheus, Grafana, and the TICK Stack. Exploring
+              innovative solutions for improving scalability and system
+              stability.
+            </p>
 
-        <li>
-          Web Development
-          <ul>
-            <li>
-              Frontend
-              <ul>
-                <li>HTML5 <em>(Medium)</em></li>
-                <li>CSS3 <em>(Medium)</em></li>
-                <li>
-                  Javascript <em>(Advanced)</em>
-                  <ul>
-                    <li>React.js and its ecosystem</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>
-              Backend
-              <ul>
-                <li>
-                  NodeJS <em>(Advanced)</em>
-                  <ul>
-                    <li>ExpressJs <em>(Advanced)</em></li>
-                    <li>NextJS</li>
-                  </ul>
-                </li>
-                <li>Go <em>(Basic)</em></li>
-              </ul>
-            </li>
-            <li>
-              Databases
-              <ul>
-                <li>MySql <em>(Medium)</em></li>
-                <li>Postgresql <em>(Medium)</em></li>
-                <li>MongoDB <em>(Medium)</em></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Messaging systems
-          <ul>
-            <li>Kafka <em>(Basic)</em></li>
-            <li>RabbitMQ <em>(Basic)</em></li>
-            <li>MQTT <em>(Basic)</em></li>
-          </ul>
-        </li>
+            <h3 class="mt-5">Scaling Expertise: Globant</h3>
+            <p>
+              After three years at Condorlabs, I joined
+              <a href="https://www.globant.com/">Globant</a>, where I worked
+              with high-profile clients, including
+              <a href="https://www.nationalgeographic.com/"
+                >National Geographic</a
+              >
+              (NatGeo) and <a href="https://www.disneyplus.com">Disney+</a>.
+            </p>
+            My contributions at NatGeo included:
+            <ul>
+              <li>
+                <strong>GDPR Compliance</strong>: Developing platforms for user
+                preference management and enabling data deletion to comply with
+                GDPR regulations.
+              </li>
+              <li>
+                <strong>Scalability</strong>: Building scalable solutions on AWS
+                and integrating with external services NatGeo relied upon.
+              </li>
+            </ul>
 
-        <li>
-          DevOps
-          <ul>
-            <li>Microservices <em>(Medium)</em></li>
-            <li>Docker <em>(Medium)</em></li>
-            <li>Nginx <em>(Medium)</em></li>
-            <li>AWS <em>(Medium)</em></li>
-            <li>GCP <em>(Medium)</em></li>
-          </ul>
-        </li>
+            <p>
+              Later, I was promoted to lead the API development used by NatGeo's
+              mobile applications (iOS and Android). This required extensive
+              collaboration across teams to ensure high performance and
+              reliability.
+            </p>
+            <p>
+              Post-acquisition by Disney, I joined a dedicated team working on
+              Disney+ metadata systems.
+            </p>
+            <p>This role introduced me to:</p>
+            <ul>
+              <li>
+                <strong> Kafka: </strong>
+                For real-time data streaming and processing of large volumes of
+                data.
+              </li>
+            </ul>
 
-        <li>
-          Monitoring stack
-          <ul>
-            <li>TICK Stack<em>(Medium)</em></li>
-            <li>Prometheus<em>(Medium)</em></li>
-            <li>Grafana<em>(Medium)</em></li>
-            <li>Opentelemetry<em>(Medium)</em></li>
-          </ul>
-        </li>
-      </ul>
+            <h3 class="mt-5">Current Role: Driving Innovation at Jobbatical</h3>
+            <p>
+              I initially joined
+              <a href="https://www.jobbatical.com/">Jobbatical</a> in the
+              product development team, contributing to the creation and
+              evolution of the platform that supports seamless immigration and
+              relocation services.
+            </p>
+            <p>
+              Over time, I transitioned into a more specialized DevOps role,
+              aligning with my passion for infrastructure and platform
+              operations.
+            </p>
+            <p>My responsibilities include:</p>
+            <ul>
+              <li>
+                Automating infrastructure on Google Cloud Platform (GCP) with
+                Terraform.
+              </li>
+              <li>Managing Kubernetes clusters and other GCP services.</li>
+              <li>Maganing the different databases the company uses.</li>
+              <li>
+                Collaborating on the reliability and security of Jobbatical's
+                platform.
+              </li>
+              <li>
+                Managing third party services critical for the business
+                operations.
+              </li>
+            </ul>
+            <p>
+              This combination of product development and DevOps expertise has
+              allowed me to understand both the user-facing needs and the
+              underlying architecture, enabling me to contribute effectively
+              across the organization.
+            </p>
+            <!-- Include the rest of the detailed journey text -->
+          </div>
 
-      <p>🌱 I’m currently insterested in:</p>
-      <ul>
-        <li>Rustlang</li>
-        <li>Golang</li>
-        <li>Svelte.js</li>
-        <li>HTMX</li>
-      </ul>
+          <!-- Skills Section -->
+          <div class="section">
+            <h2>Skills and Expertise</h2>
+            <p>
+              Over the years, I have developed expertise in various
+              technologies.
+              <br />
+              Here’s an overview of my technical skill set:
+            </p>
+            <div class="row" style="text-align: left">
+              <div class="col-md-6">
+                <ul class="experience">
+                  <li>
+                    <strong>Programming languages</strong>
+                    <ul>
+                      <li>Javascript <em>(Advanced)</em></li>
+                      <li>Bash <em>(Medium)</em></li>
+                      <li>Go <em>(Medium)</em></li>
+                      <li>Ruby <em>(Basic)</em></li>
+                    </ul>
+                  </li>
 
-      <p>📫 How to reach me:</p>
-      <div class="social-networks">
-        <a
-          href="mailto:pedroj.jimenez@gmail.com"
-          target="_blank"
-          rel="noopener"
-        >
-          <img src="./static/icons/gmail.svg" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/pedro-jimenezp"
-          target="_blank"
-          rel="noopener"
-        >
-          <img src="./static/icons/linkedin.svg" />
-        </a>
-        <a
-          href="https://www.github.com/pedrojimenezp"
-          target="_blank"
-          rel="noopener"
-        >
-          <img src="./static/icons/github.svg" />
-        </a>
-        <a
-          href="https://www.twitter.com/pedrojimenezp"
-          target="_blank"
-          rel="noopener"
-        >
-          <img src="./static/icons/twitter.svg" />
-        </a>
-        <a
-          href="https://www.instagram.com/pedroj.jimenezp"
-          target="_blank"
-          rel="noopener"
-        >
-          <img src="./static/icons/instagram.svg" />
-        </a>
+                  <li>
+                    <strong>Web Development</strong>
+                    <ul>
+                      <li>
+                        Frontend
+                        <ul>
+                          <li>HTML5 <em>(Medium)</em></li>
+                          <li>CSS3 <em>(Medium)</em></li>
+                          <li>
+                            Javascript <em>(Advanced)</em>
+                            <ul>
+                              <li>React.js and its ecosystem</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Backend
+                        <ul>
+                          <li>
+                            NodeJS <em>(Advanced)</em>
+                            <ul>
+                              <li>ExpressJs <em>(Advanced)</em></li>
+                              <li>NextJS <em>(Medium)</em></li>
+                            </ul>
+                          </li>
+                          <li>Go <em>(Basic)</em></li>
+                          <li>Ruby on rails <em>(Basic)</em></li>
+                        </ul>
+                      </li>
+                      <li>
+                        Databases
+                        <ul>
+                          <li>MySql <em>(Medium)</em></li>
+                          <li>Postgresql <em>(Medium)</em></li>
+                          <li>MongoDB <em>(Medium)</em></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="experience">
+                  <li>
+                    <strong>DevOps & Infrastructure</strong>
+                    <ul>
+                      <li>Docker <em>(Medium)</em></li>
+                      <li>Kubernetes <em>(Medium)</em></li>
+                      <li>Terraform <em>(Medium)</em></li>
+                      <li>Nginx <em>(Medium)</em></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <strong>Servers</strong>
+                    <ul>
+                      <li>Linux <em>(Advanced)</em></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <strong>Cloud platforms</strong>
+                    <ul>
+                      <li>GCP <em>(Medium)</em></li>
+                      <li>AWS <em>(Basic)</em></li>
+                      <li>Digital Ocean <em>(Basic)</em></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <strong>Monitoring and Observability</strong>
+                    <ul>
+                      <li>Opentelemetry<em>(Medium)</em></li>
+                      <li>Prometheus<em>(Medium)</em></li>
+                      <li>Grafana<em>(Basic)</em></li>
+                      <li>TICK Stack<em>(Basic)</em></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>A note from Me</h3>
+            <p>
+              Thank you for taking the time to learn about my professional
+              journey and skills. I am always eager to collaborate on meaningful
+              projects, explore new technologies, and contribute to innovative
+              solutions. If my expertise aligns with your needs, don’t hesitate
+              to reach out.
+            </p>
+            <p style="text-align: center">
+              Let’s build something remarkable together!
+            </p>
+          </div>
+
+          <!-- Social Media Section -->
+          <footer>
+            <div class="social-networks">
+              <a
+                href="mailto:pedroj.jimenez@gmail.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./static/icons/gmail.svg" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pedro-jimenezp"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./static/icons/linkedin.svg" />
+              </a>
+              <a
+                href="https://www.github.com/pedrojimenezp"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./static/icons/github.svg" />
+              </a>
+              <a
+                href="https://www.twitter.com/pedrojimenezp"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./static/icons/twitter.svg" />
+              </a>
+              <a
+                href="https://www.instagram.com/pedroj.jimenezp"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="./static/icons/instagram.svg" />
+              </a>
+            </div>
+            <p class="mt-5">© 2024 Pedro Jiménez</p>
+          </footer>
+        </div>
       </div>
-
-      <footer>
-        © 2023 pedrojimenezp.com all rights reserved,
-        <div>
-          Icons made by
-          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
-          <a href="https://www.flaticon.com/" title="Flaticon"
-            >www.flaticon.com</a
-          >
-        </div>
-        <div>
-          Icons made by
-          <a
-            href="https://www.flaticon.com/authors/pixel-perfect"
-            title="Pixel perfect"
-            >Pixel perfect</a
-          >
-          from
-          <a href="https://www.flaticon.com/" title="Flaticon"
-            >www.flaticon.com</a
-          >
-        </div>
-      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ['Lato'],
-        },
-      });
-    </script>
 
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js"
-      integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/fontawesome.js"
-      integrity="sha384-2OfHGv4zQZxcNK+oL8TR9pA+ADXtUODqGpIRy1zOgioC4X3+2vbOAp5Qv7uHM4Z8"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </body>
 </html>
