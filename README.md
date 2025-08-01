@@ -1,12 +1,16 @@
-PEDRO JIMENEZ
-Sr. Software Engineer | Full-Stack Development
+# PEDRO JIMENEZ
+
+## Sr. Software Engineer | Full-Stack Development
 
 pedroj.jimenezp@gmail.com
+
 +57-(301)-724-4854
+
 https://pedrojimenezp.com
+
 Medellin, Colombia
 
-# Summary
+## Summary
 
 Software Engineer with over 9 years of professional experience in web development, with a strong focus on back-end systems, security and infrastructure.
 
@@ -15,7 +19,7 @@ Skilled in building scalable platforms using Javascript, Node.js, Go, and modern
 Passionate about code, software architecture, complex information systems, financial services, automation, and developer experience.
 Currently working remotely at Jobbatical, a European startup, leading infrastructure efforts and full-stack feature development.
 
-# Experience
+## Experience
 
 Senior Software Engineer
 Jobbatical
@@ -60,29 +64,29 @@ Monteria, Colombia
 - Designed, developed and maintained the company’s core operational desktop software using C#, .NET, WPF, and MySQL
 - The software supported the company's logistics and operations for over 5 years, until it was replaced with a new one
 
-# Education
+## Education
 
-Bachelor's in Software Engineering
+Bachelor's Degree in Software and Telecommunications Engineering
 University of Cordoba
 01/2010 - 12/2015
 Monteria, Colombia
 
-# Languages
+## Languages
 
 English
 
 Spanish
 
-# SKILLS
+## SKILLS
 
-Programing Languages
+### Programming Languages
 
 - Javascript
 - Typescript
 - Golang
 - Bash
 
-Web Development
+### Web Development
 
 - Node.js
 - React.js
@@ -95,14 +99,15 @@ Web Development
 - WebSockets
 - SSE
 
-Databases
+### Databases
 
 - PostgreSQL
 - MongoDB
 - DynamoDB
 - Elasticsearch
+- Redis
 
-Dev-ops & Infrastructure
+### Dev-ops & Infrastructure
 
 - Docker
 - Kubernetes
@@ -115,12 +120,12 @@ Dev-ops & Infrastructure
 - Prometheus
 - Grafana
 
-Cloud Platforms
+### Cloud Platforms
 
 - GCP
 - AWS
 
-# Interests
+## Interests
 
 Information systems
 I'm passionate about complex information systems—understanding how they operate, communicate, share data, and remain secure and high-performing.
